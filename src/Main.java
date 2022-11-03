@@ -26,6 +26,12 @@ public class Main {
         System.out.println("Introduce el TITULO de un libro");
         book.setTitle(scanner.next());
 
+        System.out.println("Introduce un AUTOR de un libro");
+        book.setAutor(scanner.next());
+
+        System.out.println("Introduce un GENERO del libro");
+        book.setGenre(scanner.next());
+
         System.out.println("Introduce una fecha de PUBLICACION del libro");
         book.setPublication(scanner.next());
         /**
