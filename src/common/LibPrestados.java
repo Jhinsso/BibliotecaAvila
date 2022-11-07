@@ -1,5 +1,5 @@
 package common;
 
-public class LibPrestados {
+public interface LibPrestados {
 
 }
