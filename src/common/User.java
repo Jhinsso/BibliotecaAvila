@@ -1,3 +1,5 @@
+package common;
+
 public class User {
     private Integer dni;
     private String name ;

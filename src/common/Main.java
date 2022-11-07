@@ -1,3 +1,5 @@
+package common;
+
 import java.util.Scanner;
 public class Main {
 
@@ -38,7 +40,7 @@ public class Main {
          * AUTOR
          */
         Autor autor= new Autor();
-        System.out.println("Introduce un Autor:");
+        System.out.println("Introduce un common.Autor:");
         autor.setId(scanner.nextInt());
 
         System.out.println("Introduce el NOMBRE de un AUTOR");
