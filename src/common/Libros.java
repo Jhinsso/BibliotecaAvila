@@ -4,7 +4,7 @@ public class Libros {
     private Integer isbn;
     private String title;
     private String autor;
-    private String genre;
+    private Genre genre;
     private String publication;
 
     public Integer getIsbn(){
@@ -27,14 +27,14 @@ public class Libros {
     public void setAutor(String autor) {
         this.autor = autor;
     }
-    public String getGenre () {
+    public Genre getGenre () {
         return genre;
     }
-    public void setGenre(String genre){
+    public void setGenre(Genre genre){
         this.genre = genre;
     }
     public String getPublication () {
-        return genre;
+        return publication;
     }
     public void setPublication(String publication){
         this.publication = publication;
