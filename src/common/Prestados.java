@@ -5,6 +5,8 @@ public class Prestados {
     private Integer id;
     private String datstart;
     private String datend;
+    private User user;
+    private Libros books;
 
     public Integer getId(){
         return id;
@@ -24,4 +26,9 @@ public class Prestados {
     public void setDatend(String datend){
         this.datend=datend;
     }
+    public User getUser() {return user;}
+    public void setUser(User user){this.user=user;}
+    public Libros getBooks(){return books;}
+    public void setBooks(Libros books){this.books=books;}
+
 }

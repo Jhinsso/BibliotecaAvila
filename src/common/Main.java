@@ -64,5 +64,15 @@ public class Main {
 
         System.out.println("Introduce la fecha de NACIMIENTO de un USUARIO");
         user.setBirthday(scanner.next());
+        /**
+         * Loan
+         */
+        Prestados loan= new Prestados();
+        loan.getId();
+        loan.getUser();
+        loan.getBooks();
+        loan.getDatstart();
+        loan.getDatend();
+
     }
 }
